@@ -1,0 +1,45 @@
+[
+  date: "2019-04-16",
+  items: [
+    {
+      time: "09:00",
+      action: "wakker%20worden.png",
+      is_done: false
+    },
+    {
+      time: "09:15",
+      action: "ontbijt.png",
+      is_done: false
+    },
+    {
+      time: "10:00",
+      action: "tv%20kijken.png",
+      is_done: false
+    },
+    {
+      time: "13:00",
+      action: "kaas%20en%20wijn.png",
+      is_done: false
+    },
+    {
+      time: "14:00",
+      action: "paard%20wandelen.png",
+      is_done: false
+    },
+    {
+      time: "16:00",
+      action: "bloemschikken.png",
+      is_done: false
+    },
+    {
+      time: "18:00",
+      action: "avondmaal%204.png",
+      is_done: false
+    },
+    {
+      time: "19:00",
+      action: "vrije%20tijd.png",
+      is_done: false
+    }
+  ]
+]
