@@ -50,6 +50,13 @@ class TimetableItemAdapter extends RecyclerView.Adapter<TimetableItemAdapter.Vie
                 //.error(R.drawable.ic_error_image)
                 .into(holder.actionView);
 
+        if (item.couchAvatar != null) {
+            Picasso.get()
+                    .load(item.couchAvatar)
+                    .transform(new CircleTransform())
+                    .into(holder.couchView);
+        }
+
 
     }
 
@@ -66,12 +73,14 @@ class TimetableItemAdapter extends RecyclerView.Adapter<TimetableItemAdapter.Vie
     public class ViewHolder extends RecyclerView.ViewHolder {
         ImageView timeView;
         ImageView actionView;
+        ImageView couchView;
         ImageView doneView;
 
         public ViewHolder(View itemView) {
             super(itemView);
             timeView = itemView.findViewById(R.id.time);
             actionView = itemView.findViewById(R.id.action);
+            couchView = itemView.findViewById(R.id.couch);
             doneView = itemView.findViewById(R.id.button_done);
         }
     }

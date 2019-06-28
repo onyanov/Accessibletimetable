@@ -11,6 +11,10 @@ public class TimetableItem {
     @Expose
     public String action;
 
+    @SerializedName("couch_avatar")
+    @Expose
+    public String couchAvatar;
+
     @SerializedName("is_done")
     @Expose
     public boolean isDone;
