@@ -14,12 +14,14 @@
       },
       {
         "time": "10:00",
-        "action": "tv%20kijken.png",
+        "action": "koor.png",
+        "couch_avatar": "https://raw.githubusercontent.com/onyanov/Accessibletimetable/master/samples/1.jpg",
         "is_done": false
       },
       {
         "time": "13:00",
         "action": "kaas%20en%20wijn.png",
+        "couch_avatar": "https://raw.githubusercontent.com/onyanov/Accessibletimetable/master/samples/2.jpg",
         "is_done": false
       },
       {
